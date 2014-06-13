@@ -1,4 +1,3 @@
-jatoo-app
-=========
+# JaToo :: App
 
-JaToo :: App - a base for java applications.
+A Java Open Source library created to ease the start of the java applications.
