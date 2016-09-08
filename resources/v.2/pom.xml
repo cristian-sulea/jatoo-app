@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+
+	<groupId>jatoo</groupId>
+	<artifactId>jatoo-app</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+
+	<name>JaToo :: App</name>
+
+
+	<developers>
+		<developer>
+			<id>cristian.sulea</id>
+			<name>Cristian Sulea</name>
+			<email>cristian.sulea.79@gmail.com</email>
+			<url>http://cristian.sulea.net</url>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+2</timezone>
+		</developer>
+	</developers>
+
+
+	<properties>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>jatoo</groupId>
+			<artifactId>jatoo</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>frameworks</groupId>
+			<artifactId>frameworks-spring</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>frameworks</groupId>
+			<artifactId>frameworks-log4j</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+	</dependencies>
+
+
+</project>
