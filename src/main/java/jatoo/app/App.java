@@ -681,7 +681,7 @@ public abstract class App {
    *          the message to display
    */
   public void showTrayMessage(final String title, final String message) {
-    showTrayMessage(getTitle(), message, null);
+    showTrayMessage(title, message, null);
   }
 
   /**
