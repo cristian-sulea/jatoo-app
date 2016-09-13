@@ -17,14 +17,6 @@
 
 package jatoo.app;
 
-import jatoo.resources.ResourcesImages;
-import jatoo.resources.ResourcesTexts;
-import jatoo.ui.ActionGlueMarginBottom;
-import jatoo.ui.ActionGlueMarginLeft;
-import jatoo.ui.ActionGlueMarginRight;
-import jatoo.ui.ActionGlueMarginTop;
-import jatoo.ui.UIUtils;
-
 import java.awt.AWTException;
 import java.awt.CheckboxMenuItem;
 import java.awt.Color;
@@ -75,6 +67,14 @@ import javax.swing.event.ChangeListener;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
+import jatoo.resources.ResourcesImages;
+import jatoo.resources.ResourcesTexts;
+import jatoo.ui.ActionGlueMarginBottom;
+import jatoo.ui.ActionGlueMarginLeft;
+import jatoo.ui.ActionGlueMarginRight;
+import jatoo.ui.ActionGlueMarginTop;
+import jatoo.ui.UIUtils;
 
 /**
  * This is the heart of the JaToo App Library, a Java Open Source library
