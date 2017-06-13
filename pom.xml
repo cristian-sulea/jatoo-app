@@ -6,7 +6,7 @@
     <groupId>net.sulea.cristian</groupId>
     <artifactId>jatoo</artifactId>
     <relativePath>../jatoo/pom.xml</relativePath>
-    <version>4.1.0</version>
+    <version>5.0</version>
   </parent>
 
   <artifactId>jatoo-app</artifactId>
@@ -40,20 +40,24 @@
   <dependencies>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>net.sulea.cristian</groupId>
       <artifactId>jatoo-log4j</artifactId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>net.sulea.cristian</groupId>
       <artifactId>jatoo-properties</artifactId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>net.sulea.cristian</groupId>
       <artifactId>jatoo-resources</artifactId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>net.sulea.cristian</groupId>
       <artifactId>jatoo-ui</artifactId>
+      <version>${project.version}</version>
     </dependency>
 
   </dependencies>
